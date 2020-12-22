@@ -40,25 +40,63 @@ header p {
 }
 
 .pad1 {
-    background: lightsalmon;
+    background: #ffa07a;
 }
 
 .pad2 {
-    background: lightpink;
+    background: #ffb6c1;
 }
 
 .pad3 {
-    background:lightgrey ;
+    background:#d3d3d3 ;
 }
 
 .pad4 {
-    background: lightgreen;
+    background: #90ee90;
 }
 
 .pad5 {
-    background: lightgoldenrodyellow;
+    background: #fafad2;
 }
 
 .pad6 {
-    background: lightcyan;
+    background: #e0ffff;
 }
+
+.visuals > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left:20%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump {
+    0%{
+       bottom: 0%;
+       left: 20%;
+    }
+
+    50%{
+        bottom: 50%;
+       left: 50%;
+    }
+
+    100%{
+        bottom: 0%;
+       left: 80%;
+    }
+}
+
+.visuals > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    
+}
+
