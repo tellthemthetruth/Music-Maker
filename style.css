@@ -7,6 +7,10 @@
 
 body {
     font-family: 'Langar', cursive;
+    background-image: url("./images/fe3545469a6d65137b921656ae976c3e.gif");
+    background-repeat: repeat;
+    background-position:unset;
+    background-clip: border-box;
 }
 
 .app {
